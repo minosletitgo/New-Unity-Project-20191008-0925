@@ -1,0 +1,10 @@
+粒子特效问题汇总：
+01.ParticleScaler【来自AssetStore，林总提供的】，非常详细的【篡改ParticleSystem】很多参数（包括坐标），可以在【编辑模式】下调整【复杂粒子特效】，完事后点击【Apply】保存即可！
+02.ParticlesScaleHelper【来自网络】，轻量级的修改【ParticleSystem】的极少数参数，只用在【运行模式】之下，但无法适配【复杂粒子特效】，没有【Apply】这种操作！
+03.shader方式（http://www.xuanyusong.com/archives/3486），支持【运行模式】，根据【transform.lossyScale】来计算，没具体研究！
+04.手动【篡改ParticleSystem】，即【专职特效美术】使用，不推荐其他人员使用！
+
+当下结论：
+01.【UI粒子特效】：理论上可以直接使用【01.ParticleScaler】，但UI对了一次UIRoot缩放，所以推荐使用【02.ParticlesScaleHelper】，现有版本已经在使用。
+02.不复杂的【非UI粒子特效】：直接使用【01.ParticleScaler】（林总当前就是使用这种方式）。
+03.复杂的【非UI粒子特效】：不建议使用【01.02.03方案】，建议直接让【专职特效美术】来整体调整。如：黑烟（ef_fighting_kaihuo01）

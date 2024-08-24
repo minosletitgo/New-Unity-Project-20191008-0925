@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MyIcons
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a804fe54b4ca61f4aa97b53310e2b3ff, type: 3}
+    - {fileID: 2800000, guid: 81970fdff0c9cbc47bbc0049d8890245, type: 3}
+    - {fileID: 2800000, guid: 816159b4bde61ae47877b0c33f9189fe, type: 3}
+    - {fileID: 2800000, guid: bcb45186ab346a446b34d3a238ce36eb, type: 3}
+    - {fileID: 2800000, guid: a404388c90bb3d64f9169a95a9acf9fd, type: 3}
+    - {fileID: 2800000, guid: 9474014ad6e87bb43b2b919f6a2bece5, type: 3}
+    totalSpriteSurfaceArea: 303750
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9474014ad6e87bb43b2b919f6a2bece5, type: 3}
+  - {fileID: 21300000, guid: bcb45186ab346a446b34d3a238ce36eb, type: 3}
+  - {fileID: 21300000, guid: a404388c90bb3d64f9169a95a9acf9fd, type: 3}
+  - {fileID: 21300000, guid: a804fe54b4ca61f4aa97b53310e2b3ff, type: 3}
+  - {fileID: 21300000, guid: 816159b4bde61ae47877b0c33f9189fe, type: 3}
+  - {fileID: 21300000, guid: 81970fdff0c9cbc47bbc0049d8890245, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - avatar6
+  - avatar4
+  - avatar5
+  - avatar1
+  - avatar3
+  - avatar2
+  m_Tag: MyIcons
+  m_IsVariant: 0

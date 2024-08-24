@@ -1,0 +1,52 @@
+{"frames": {
+
+"img_bookcase1.png":
+{
+	"frame": {"x":484,"y":2,"w":480,"h":1034},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":46,"w":480,"h":1034},
+	"sourceSize": {"w":480,"h":1080}
+},
+"img_bookcase2.png":
+{
+	"frame": {"x":2,"y":1038,"w":480,"h":976},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":104,"w":480,"h":976},
+	"sourceSize": {"w":480,"h":1080}
+},
+"img_bookcase3.png":
+{
+	"frame": {"x":2,"y":2,"w":480,"h":1034},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":20,"w":480,"h":1034},
+	"sourceSize": {"w":480,"h":1080}
+},
+"img_bookcase4.png":
+{
+	"frame": {"x":966,"y":2,"w":480,"h":1020},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":32,"w":480,"h":1020},
+	"sourceSize": {"w":480,"h":1080}
+},
+"img_bookcase5.png":
+{
+	"frame": {"x":484,"y":1038,"w":480,"h":924},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":112,"w":480,"h":924},
+	"sourceSize": {"w":480,"h":1080}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "MyAtlas03.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d4f256e9cd12c93b635a941c5c9d82b5$"
+}
+}
